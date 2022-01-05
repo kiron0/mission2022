@@ -1,0 +1,78 @@
+/* body{
+    background: #E5E5E5;
+} */
+
+h1{
+    font-size: 60px;
+    font-family: "Yeseva One";
+}
+
+#mission{
+    border-left: 4px solid;
+    border-color: #FF5959;
+    border-image-slice: 1;
+    border-radius: 5px;
+    margin-right: 5px;
+}
+
+p{
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+    line-height: 28px;
+}
+
+.flexible-container{
+    display: flex;
+    height: 600px;
+    margin-bottom: 150px;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.half-width{
+    width: 50%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+}
+
+.half-width img{
+    width: 70%;
+    margin-top: 5px;
+}
+
+.link-button{
+    text-decoration: none;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-weight: normal;
+    background-color: #FF5959;
+    padding: 20px 40px;
+    border-radius: 5px;
+    justify-content: center;
+    align-items: center;
+}
+
+.my-missions{
+    text-align: center;
+}
+
+#mission-2{
+    background: #4F9DA61A;
+    border-radius: 25px;
+}
+
+#vission{
+    background: #FF59591A;
+    border-radius: 25px;
+}
+
+#goals{
+    background: #FFF4D6;
+    border-radius: 25px;
+}
+
+span{
+    color: #FFAD5A;
+}
