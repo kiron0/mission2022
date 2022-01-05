@@ -73,6 +73,35 @@ p{
     border-radius: 25px;
 }
 
+.develop-page{
+    background-image: url(images/shapes/shape-1.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: 20%;
+}
+
+.develop-page img{
+    width: 60%;
+}
+
+.projects-page{
+    background-image: url(images/shapes/shape-1.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 40%;
+}
+
 span{
     color: #FFAD5A;
+}
+
+.footer-page{
+    background-color: black;
+    margin: 0%;
+    text-align: center;
+    color: white;
+    height: 220px;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
 }
