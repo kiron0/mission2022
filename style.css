@@ -1,5 +1,6 @@
 /* body{
     background: #E5E5E5;
+
 } */
 
 h1{
@@ -7,7 +8,7 @@ h1{
     font-family: "Yeseva One";
 }
 
-#mission{
+#text-slice{
     border-left: 4px solid;
     border-color: #FF5959;
     border-image-slice: 1;
@@ -19,13 +20,15 @@ p{
     font-size: 18px;
     font-family: 'Poppins', sans-serif;
     line-height: 28px;
+    color: dimgray;
 }
 
 .flexible-container{
     display: flex;
     height: 600px;
     margin-bottom: 150px;
-    padding: 10px;
+    width: 80%;
+    margin: 0 auto;
     justify-content: center;
     align-items: center;
 }
@@ -38,7 +41,7 @@ p{
 }
 
 .half-width img{
-    width: 70%;
+    width: 80%;
     margin-top: 5px;
 }
 
@@ -55,13 +58,21 @@ p{
 }
 
 .my-missions{
+    font-family: 'Poppins', sans-serif;
     text-align: center;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: bold;
 }
 
-#mission-2{
+#mission{
     background: #4F9DA61A;
     border-radius: 25px;
 }
+
+/* .mission-img img{
+    width: 25%;
+} */
 
 #vission{
     background: #FF59591A;
@@ -71,6 +82,7 @@ p{
 #goals{
     background: #FFF4D6;
     border-radius: 25px;
+    margin-right: 5%;
 }
 
 .develop-page{
@@ -96,12 +108,20 @@ span{
 }
 
 .footer-page{
+    height: 220px;
     background-color: black;
-    margin: 0%;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
     text-align: center;
     color: white;
-    height: 220px;
-    padding: 10px;
+    padding-bottom: 10px;
     justify-content: center;
     align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-page h1{
+    font-size: 36px;
 }
