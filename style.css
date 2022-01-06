@@ -1,127 +1,134 @@
-/* body{
-    background: #E5E5E5;
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap");
 
-} */
-
-h1{
-    font-size: 60px;
-    font-family: "Yeseva One";
+body {
+  /* background: #E5E5E5; */
+  font-family: "Montserrat", sans-serif;
 }
 
-#text-slice{
-    border-left: 4px solid;
-    border-color: #FF5959;
-    border-image-slice: 1;
-    border-radius: 5px;
-    margin-right: 5px;
+h1 {
+  font-size: 60px;
+  font-family: "Yeseva One";
 }
 
-p{
-    font-size: 18px;
-    font-family: 'Poppins', sans-serif;
-    line-height: 28px;
-    color: dimgray;
+#text-slice {
+  border-left: 6px solid;
+  border-color: #ff5959;
+  border-image-slice: 1;
+  padding: 0 10px;
 }
 
-.flexible-container{
-    display: flex;
-    height: 600px;
-    margin-bottom: 150px;
-    width: 80%;
-    margin: 0 auto;
-    justify-content: center;
-    align-items: center;
+p {
+  font-size: 18px;
+  font-family: "Poppins", sans-serif;
+  line-height: 28px;
+  color: dimgray;
 }
 
-.half-width{
-    width: 50%;
-    float: left;
-    margin-left: 5%;
-    padding-left: 2%;
+.flexible-container {
+  display: flex;
+  height: 550px;
+  margin-bottom: 150px;
+  width: 80%;
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
 }
 
-.half-width img{
-    width: 80%;
-    margin-top: 5px;
+.half-width {
+  width: 50%;
+  float: left;
+  margin: 20px;
+  padding: 2%;
 }
 
-.link-button{
-    text-decoration: none;
-    color: white;
-    font-family: 'Poppins', sans-serif;
-    font-weight: normal;
-    background-color: #FF5959;
-    padding: 20px 40px;
-    border-radius: 5px;
-    justify-content: center;
-    align-items: center;
+.half-width img {
+  width: 80%;
+  margin-top: 5px;
+}
+.mission img {
+  width: 30%;
+  margin-top: 5px;
 }
 
-.my-missions{
-    font-family: 'Poppins', sans-serif;
-    text-align: center;
-    font-size: 60px;
-    font-style: normal;
-    font-weight: bold;
+.link-button {
+  text-decoration: none;
+  color: white;
+  font-family: "Poppins", sans-serif;
+  font-weight: normal;
+  background-color: #ff5959;
+  padding: 10px 40px;
+  border-radius: 5px;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
-#mission{
-    background: #4F9DA61A;
-    border-radius: 25px;
+.my-missions {
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+  font-size: 60px;
+  font-style: normal;
+  font-weight: bold;
+}
+
+#mission {
+  background: #4f9da61a;
+  border-radius: 25px;
 }
 
 /* .mission-img img{
     width: 25%;
 } */
 
-#vission{
-    background: #FF59591A;
-    border-radius: 25px;
+#vission {
+  background: #ff59591a;
+  border-radius: 25px;
 }
 
-#goals{
-    background: #FFF4D6;
-    border-radius: 25px;
-    margin-right: 5%;
+#goals {
+  background: #fff4d6;
+  border-radius: 25px;
+  margin-right: 5%;
 }
 
-.develop-page{
-    background-image: url(images/shapes/shape-1.png);
-    background-repeat: no-repeat;
-    background-position: left;
-    background-size: 20%;
+.develop-page {
+  background-image: url(images/shapes/shape-1.png);
+  background-repeat: no-repeat;
+  background-position: left;
+  background-size: 20%;
 }
 
-.develop-page img{
-    width: 60%;
+.develop-page img {
+  width: 60%;
 }
 
-.projects-page{
-    background-image: url(images/shapes/shape-1.png);
-    background-repeat: no-repeat;
-    background-position: right;
-    background-size: 40%;
+.projects-page {
+  background-image: url(images/shapes/shape-1.png);
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: 40%;
 }
 
-span{
-    color: #FFAD5A;
+span {
+  color: #ffad5a;
 }
 
-.footer-page{
-    height: 220px;
-    background-color: black;
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    text-align: center;
-    color: white;
-    padding-bottom: 10px;
-    justify-content: center;
-    align-items: center;
-    display: flex;
-    flex-direction: column;
+.footer-page {
+  height: 220px;
+  background-color: black;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-align: center;
+  color: white;
+  padding-bottom: 10px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
 }
 
-.footer-page h1{
-    font-size: 36px;
+.footer-page h1 {
+  font-size: 36px;
 }
