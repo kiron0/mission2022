@@ -57,9 +57,21 @@ p {
 }
 
 .half-width img {
-  width: 80%;
+  width: 70%;
   margin-top: 5px;
   margin-bottom: 10px;
+}
+
+#profile-img{
+  width: 75%;
+}
+
+.input-image{
+  overflow: hidden;
+}
+.input-image img{
+  width: 83%;
+  /* overflow: hidden; */
 }
 .mission img {
   width: 30%;
@@ -167,6 +179,7 @@ span {
 
 .contact-page-text{
   font-family: "Poppins", sans-serif;
+  font-size: 50px;
 }
 
 footer {
