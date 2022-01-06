@@ -12,6 +12,7 @@ h1 {
 }
 
 #text-slice {
+  font-family: "Montserrat", sans-serif;
   border-left: 6px solid;
   border-color: #ff5959;
   border-image-slice: 1;
@@ -97,8 +98,7 @@ p {
   background-image: url(images/shapes/shape-1.png);
   background-repeat: no-repeat;
   background-position: left;
-  background-size: 20%;
-  margin-left: 20px;
+  background-size: 17%;
 }
 
 .develop-page h1{
@@ -107,21 +107,15 @@ p {
 
 .develop-page img {
   width: 60%;
+  padding: 5%;
 }
-
-/* .projects-page {
-  background-image: url(images/shapes/shape-1.png);
-  background-repeat: no-repeat;
-  background-position: right;
-  background-size: 40%;
-} */
 
 .projects-page-text{
   font-family: "Poppins", sans-serif;
 }
 
 .projects-page img{
-  margin-left: 20%;
+  margin-left: 22%;
 }
 
 .project-content-page{
@@ -135,8 +129,9 @@ span {
   color: #ffad5a;
 }
 
-.contact-img img{
-  width: 70%;
+.contact-img{
+  background-size: 100%;
+  width: 100%;
 }
 
 .input-form{
