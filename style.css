@@ -11,6 +11,18 @@ h1 {
   font-family: "Yeseva One";
 }
 
+.header-para{
+  margin-top: 10%;
+}
+
+.para-text{
+  margin-bottom: 7%;
+}
+
+.projects-text{
+  margin-bottom: 3%;
+}
+
 #text-slice {
   font-family: "Montserrat", sans-serif;
   border-left: 6px solid;
@@ -21,7 +33,7 @@ h1 {
 }
 
 p {
-  font-size: 18px;
+  font-size: 22px;
   font-family: "Poppins", sans-serif;
   line-height: 28px;
   color: dimgray;
@@ -60,7 +72,7 @@ p {
   font-family: "Poppins", sans-serif;
   font-weight: normal;
   background-color: #ff5959;
-  padding: 10px 30px;
+  padding: 15px 30px;
   border-radius: 5px;
   justify-content: center;
   align-items: center;
@@ -83,7 +95,7 @@ p {
   border-radius: 25px;
 }
 
-#vission {
+#vision {
   background: #ff59591a;
   border-radius: 25px;
 }
